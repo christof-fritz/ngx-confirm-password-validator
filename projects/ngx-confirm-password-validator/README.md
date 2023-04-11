@@ -8,7 +8,7 @@ A validator to check if two input fields in a template driven form are equal.
 
 Adds the validation errors to the two inputs instead of the form.
 
-## Demo
+## Example
 
 ```angular2html
 <form otherPasswordControlName="password_repeat"
