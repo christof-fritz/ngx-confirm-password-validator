@@ -1,0 +1,28 @@
+{
+  "name": "@christof-fritz/ngx-confirm-password-validator",
+  "version": "1.0.1",
+  "description": "A directive to check if two inputs in a template driven form are equal.",
+  "author": {
+    "name": "Christof Fritz",
+    "email": "npm@christof.me"
+  },
+  "homepage": "https://github.com/christof-fritz/ngx-confirm-password-validator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christof-fritz/ngx-confirm-password-validator.git"
+  },
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "angular",
+    "forms",
+    "validators"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
