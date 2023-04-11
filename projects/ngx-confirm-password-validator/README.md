@@ -1,5 +1,9 @@
 # NgxConfirmPasswordValidator
 
+![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/christof-fritz/ngx-confirm-password-validator?filename=%2Fprojects%2Fngx-confirm-password-validator%2Fpackage.json) 
+![npm](https://img.shields.io/npm/v/@christof-fritz/ngx-confirm-password-validator)
+![GitHub](https://img.shields.io/github/license/christof-fritz/ngx-confirm-password-validator) 
+
 A validator to check if two input fields in a template driven form are equal.
 
 Adds the validation errors to the two inputs instead of the form.
