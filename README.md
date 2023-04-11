@@ -6,7 +6,7 @@ Adds the validation errors to the two inputs instead of the form.
 
 ## Demo
 
-```angular2html
+```html
 <form otherPasswordControlName="password_repeat"
       passwordControlName="password"
       confirmPasswordValidator>
