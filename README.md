@@ -12,12 +12,11 @@ Adds the validation errors to the two inputs instead of the form.
       confirmPasswordValidator>
   <input [maxlength]="80"
          [minlength]="6"
-         [name]="'qes_username'"
-         [ngModel]="qesUser.username"
-         class="form-control"
+         [name]="'username'"
+         [ngModel]="username"
          disabled>
 
-  <input [(ngModel)]="qesUser.password"
+  <input [(ngModel)]="password"
          name="password"
          required
          type="password">
