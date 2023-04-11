@@ -4,17 +4,14 @@ A validator to check if two input fields in a template driven form are equal.
 
 Adds the validation errors to the two inputs instead of the form.
 
-## Demo
+## Example
 
 ```html
 <form otherPasswordControlName="password_repeat"
       passwordControlName="password"
       confirmPasswordValidator>
-  <input [maxlength]="80"
-         [minlength]="6"
-         [name]="'username'"
-         [ngModel]="username"
-         disabled>
+  <input [name]="'username'"
+         [ngModel]="username">
 
   <input [(ngModel)]="password"
          name="password"
