@@ -1,4 +1,4 @@
-import {ChangeDetectorRef, Directive, inject, Input} from '@angular/core';
+import {Directive, Input} from '@angular/core';
 import {AbstractControl, NG_VALIDATORS, ValidationErrors, Validator} from '@angular/forms';
 
 @Directive({
@@ -9,8 +9,6 @@ import {AbstractControl, NG_VALIDATORS, ValidationErrors, Validator} from '@angu
 export class NgxConfirmPasswordValidatorDirective implements Validator {
   @Input() passwordControlName: string | undefined;
   @Input() otherPasswordControlName: string | undefined;
-  
-  private cdr = inject(ChangeDetectorRef);
   
   validate(control: AbstractControl): ValidationErrors | null {
     if (!this.passwordControlName || !this.otherPasswordControlName) {
